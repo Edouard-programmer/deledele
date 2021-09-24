@@ -8,7 +8,7 @@
 import UIKit
 
 class HumanViewController: UIViewController {
-    weak var delegate: BirthdayViewControllerProtocol!
+    weak var delegate: BirthdayViewControllerProtocol?
     let picker = UIPickerView()
     let nameInput = UITextField(frame: CGRect(x: 0, y: 0, width: 300, height: 100))
     let dateInput = UITextField(frame: CGRect(x: 0, y: 0, width: 300, height: 100))
